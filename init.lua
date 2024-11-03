@@ -4,7 +4,7 @@
 vim.cmd [[packadd packer.nvim]]
 
 -- Инициализация Packer
-local packer = require('packer')
+local packer = require('plugins.packer')
 
 -- Загрузка основных настроек
 require('core.config')      -- Общие настройки
