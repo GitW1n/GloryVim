@@ -27,11 +27,11 @@ sudo apt install neovim
 ```
 Arch Linux:
 ```
-sudo dnf install neovim
+sudo pacman -S neovim
 ```
 Fedora:
 ```
-sudo pacman -S neovim
+sudo dnf install neovim
 ```
 For macOS using Homebrew:
 ```
