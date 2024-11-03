@@ -1,7 +1,7 @@
 -- lua/plugins/packer.lua
 
 -- Убедитесь, что Packer установлен
-local ensure_packer = function()
+local function ensure_packer()
   local fn = vim.fn
   local install_path = fn.stdpath('data')..'/site/pack/packer/start/packer.nvim'
   if fn.empty(fn.glob(install_path)) > 0 then
@@ -13,32 +13,24 @@ local ensure_packer = function()
       install_path
     })
     vim.cmd 'packadd packer.nvim'
-    return true
+    return require('packer') -- Возвращаем сам объект Packer
   end
-  return false
+  return require('packer') -- Возвращаем объект Packer, если он уже установлен
 end
 
-local packer_bootstrap = ensure_packer()
+local packer = ensure_packer() -- Получаем объект Packer
 
 -- Настройка Packer
-require('packer').startup(function(use)
+packer.startup(function(use)
   use 'wbthomason/packer.nvim' -- Packer может управлять собой
 
   -- Плагины
-  --use 'hrsh7th/nvim-cmp'                  -- Автодополнение
-  --use 'hrsh7th/cmp-nvim-lsp'              -- Источник для nvim-lsp
-  --use 'hrsh7th/cmp-vsnip'                 -- Источник для сниппетов
+  use 'hrsh7th/nvim-cmp'                  -- Автодополнение
+  use 'hrsh7th/cmp-nvim-lsp'              -- Источник для nvim-lsp
+  use 'hrsh7th/cmp-vsnip'                 -- Источник для сниппетов
   use 'onsails/lspkind-nvim'               -- Иконки для LSP
   use 'nvim-lua/plenary.nvim'             -- Утилиты Lua
   use 'nvim-treesitter/nvim-treesitter'   -- Подсветка синтаксиса
   use 'nvim-tree/nvim-tree.lua'           -- Файловый менеджер
   use 'nvim-lualine/lualine.nvim'         -- Строка состояния
   use 'nvim-telescope/telescope.nvim'     -- Поиск по файлам
-  use 'hrsh7th/vim-vsnip'                 -- Управление сниппетами
-  use 'neovim/nvim-lspconfig'              -- Конфигурация LSP
-
-  -- Установка Packer, если он еще не установлен
-  if packer_bootstrap then
-    require('packer').sync()
-  end
-end)
