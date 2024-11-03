@@ -27,6 +27,10 @@ sudo apt install neovim
 ```
 Arch Linux:
 ```
+sudo dnf install neovim
+```
+Fedora:
+```
 sudo pacman -S neovim
 ```
 For macOS using Homebrew:
@@ -46,6 +50,10 @@ For Ubuntu/Debian:
 ```
 sudo apt install python3 python3-pip
 ```
+Fedora:
+```
+sudo dnf install python3 python3-pip
+```
 For macOS using Homebrew:
 ```
 brew install python
@@ -60,6 +68,11 @@ If Packer is not installed, you can install it like this:
 ```bash
 git clone --depth 1 https://github.com/wbthomason/packer.nvim \
   ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+```
+For Windows:
+```powershell
+git clone --depth 1 https://github.com/wbthomason/packer.nvim `
+  $HOME\AppData\Local\nvim\site\pack\packer\start\packer.nvim
 ```
 ## 6. Installing plugins
 Open Neovim and run the following command to install the plugins:
