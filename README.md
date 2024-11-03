@@ -11,4 +11,4 @@
 ### Installation steps
 1. Clone the repositories:
    ```bash
-   git clone https://github.com/ваш_репозиторий/GloryVim.git ~/.config/nvim
+   git clone https://github.com/GitW1n/GloryVim.git ~/.config/nvim
