@@ -58,6 +58,10 @@ For macOS using Homebrew:
 ```
 brew install python
 ```
+Windows:
+(https://www.python.org/)
+Download the latest Python release from the Python website.
+Run the installer and make sure to check "Add Python to PATH".
 ## 4. Cloning the GloryVim repository
 Open a terminal and run the following command to clone the repository:
 ```bash
