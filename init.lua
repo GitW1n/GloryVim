@@ -14,7 +14,7 @@ packer.startup(function(use)
 end)
 
 --vim.cmd('source ~/.config/nvim/initback.vim') -- For Linux/Macos
--- vim.cmd('source C:\\Users\\<username>\\AppData\\Local\\nvim\\initback.vim') -- For Windows (replace <username> with >
+-- vim.cmd('source C:\\Users\\<username>\\AppData\\Local\\nvim\\initback.vim') -- For Windows (replace <username> with your username) 
 
 -- dashboard-nvim
 require('core.dashboard').setup {
