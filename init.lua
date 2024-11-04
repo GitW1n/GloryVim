@@ -1,21 +1,21 @@
--- Убедитесь, что Packer загружен
+-- Make sure Packer is loaded
 vim.cmd [[packadd packer.nvim]]
 
--- Инициализация Packer
+-- Packer initialization
 local packer = require('plugins.packer')
 
 -- Загрузка основных настроек
-require('core.config')      -- Общие настройки
-require('core.keymaps')     -- Клавиатурные сочетания
+require('core.config')      -- General settings
+require('core.keymaps')     -- Keyboard shortcuts
 
 -- Установка плагинов
 packer.startup(function(use)
-    require('core.plugins')(use)  -- Вызываем функцию для установки плагинов
+    require('core.plugins')(use)  -- Calling the function to install plugins
 end)
 
 -- Настройка dashboard-nvim
 require('core.dashboard').setup {
-    theme = 'hyper',  -- Опционально: выбираем тему
+    theme = 'hyper',  -- theme
     config = {
         header = {
             [[░██████╗░██╗░░░░░░█████╗░██████╗░██╗░░░██╗██╗░░░██╗██╗███╗░░░███╗]],
