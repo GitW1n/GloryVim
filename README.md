@@ -66,7 +66,7 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 source ~/.bashrc
 nvm install node
 ```
-For Windows, you can download the installer from the Node.js website and follow the instructions.
+For Windows, you can download the installer from the Node.js website(https://nodejs.org/en/download/package-manager) and follow the instructions.
 ## 3. Install Python
 Make sure Python 3 is installed. To install use:
 For Ubuntu/Debian:
