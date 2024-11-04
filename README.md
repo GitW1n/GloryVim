@@ -90,6 +90,15 @@ Open a terminal and run the following command to clone the repository:
 ```bash
 git clone https://github.com/GitW1n/GloryVim.git ~/.config/nvim
 ```
+For Windows
+### Step 1: Open PowerShell or Command Prompt
+1. Press `Win + X` and select "Windows PowerShell" or "Command Prompt".
+
+### Step 2: Clone the GloryVim Repository
+1. Navigate to your desired configuration directory for Neovim (for example, `C:\Users\<YourUsername>\AppData\Local\nvim`). You can use the following command:
+   ```powershell
+   cd $HOME\AppData\Local\nvim
+   
 ## 5. Packer installation
 If Packer is not installed, you can install it like this:
 ```bash
