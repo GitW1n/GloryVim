@@ -38,6 +38,27 @@ For macOS using Homebrew:
 ```
 brew install neovim
 ```
+Windows:
+Step 1: Download Neovim
+1. Visit the [Neovim Releases](https://github.com/neovim/neovim/releases) page.
+2. Download the latest release in `.zip` format for Windows (look for a file named like `nvim-win64.zip`).
+
+Step 2: Extract Neovim
+1. Create a directory where you want to install Neovim. A common location is `C:\Program Files\Neovim`.
+2. Extract the contents of the downloaded `.zip` file into the newly created directory.
+
+Step 3: Add Neovim to the System PATH
+1. Right-click on "This PC" or "My Computer" and select "Properties".
+2. Click on "Advanced system settings".
+3. In the System Properties window, click on the "Environment Variables" button.
+4. In the Environment Variables window, find the `Path` variable in the "System variables" section and select it, then click "Edit".
+5. In the Edit Environment Variable window, click "New" and add the path to the Neovim `bin` folder. This is usually `C:\Program Files\Neovim\bin`.
+6. Click "OK" to close all dialog boxes.
+
+Step 4: Verify Installation
+1. Open PowerShell or Command Prompt.
+2. Type `nvim` and press Enter. If Neovim starts, the installation was successful!
+
 ## 2.Installing Node.js
 Make sure Node.js is installed. To install, you can use nvm (Node Version Manager):
 ```bash
