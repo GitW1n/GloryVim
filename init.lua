@@ -4,11 +4,11 @@ vim.cmd [[packadd packer.nvim]]
 -- Packer initialization
 local packer = require('plugins.packer')
 
--- Загрузка основных настроек
+
 require('core.config')      -- General settings
 require('core.keymaps')     -- Keyboard shortcuts
 
--- Установка плагинов
+
 packer.startup(function(use)
     require('core.plugins')(use)  -- Calling the function to install plugins
 end)
