@@ -85,10 +85,56 @@ Open Neovim and run the following command to install the plugins:
 ```vim
 :PackerInstall
 ```
-## 7. Setting up dependencies
+## 7. Installing Treesitter Dependencies
+Treesitter is required for improved syntax highlighting and other code features. Make sure you have ```gcc``` or ```clang``` compiler installed, as Treesitter uses them to build parsers.
+# Installing the compiler
+For Ubuntu/Debian:
+```
+sudo apt install build-essential
+```
+Fedora:
+```
+sudo dnf install gcc gcc-c++
+```
+For macOS using Homebrew:
+```
+brew install gcc
+```
+Windows:
+1. Make sure you have ```nvim-treesitter``` installed: Make sure the ```nvim-treesitter``` plugin is added to your ```plugins.lua``` file:
+```
+use 'nvim-treesitter/nvim-treesitter'
+```
+2. Opening Neovim: Launch Neovim and run the command to install the plugins:
+```
+:PackerInstall
+```
+
+3. Installing parsers: To install missing parsers, open Neovim and run the following command:
+```
+:TSInstall <language>
+```
+4. Replace <language> with your preferred language (eg ```python```, ```lua```, ```javascript```,```html, css```). To install all parsers use:
+```
+:TSInstall all
+```
+5. Verifying installation: Verify that the parsers are successfully installed by running the command:
+```
+:TSList
+```
+This command will show a list of installed parsers.
+5. Additional dependencies: Some languages ​​may require you to install additional dependencies, such as tree-sitter-cli. You can install it via npm:
+```
+npm install -g tree-sitter-cli
+```
+
+## 8. Setting up dependencies
 If you have specific dependencies for some plugins, follow the instructions in each plugin's documentation section.
 ## Completing the installation
 After completing all the steps you should have a fully working GloryVim configuration. Launch Neovim and check that all plugins and settings are working correctly.
 ## Additional information
 To familiarize yourself with the basic Neovim commands, you can run the ```:help``` command in the editor itself.
 To get repository updates, use the ```git pull``` command in the ```~/.config/nvim``` folder.
+
+## Troubleshooting
+In development.
