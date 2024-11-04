@@ -1,6 +1,6 @@
 -- lua/plugins/packer.lua
 
--- Убедитесь, что Packer установлен
+-- Make sure packer is installed
 local function ensure_packer()
   local fn = vim.fn
   local install_path = fn.stdpath('data')..'/site/pack/packer/start/packer.nvim'
