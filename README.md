@@ -167,4 +167,14 @@ To familiarize yourself with the basic Neovim commands, you can run the ```:help
 To get repository updates, use the ```git pull``` command in the ```~/.config/nvim``` folder.
 
 ## Troubleshooting
-In development.
+If you encounter issues while installing or using GloryVim, try the following solutions:
+
+### 1. Neovim Won't Start
+- **Ensure Neovim is in PATH**: Make sure that the path to Neovim's `bin` directory is correctly added to the system `PATH` environment variable.
+- **Check Installation**: Verify that you have extracted Neovim properly and that the executable `nvim.exe` is present in the `bin` directory.
+
+### 2. Plugins Not Installing
+- **Packer Issues**: If plugins are not installing with Packer, ensure that you have cloned Packer correctly. You can reinstall it by running the following command in PowerShell:
+  ```powershell
+  git clone --depth 1 https://github.com/wbthomason/packer.nvim `
+    $HOME\AppData\Local\nvim\site\pack\packer\start\packer.nvim
