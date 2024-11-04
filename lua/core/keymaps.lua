@@ -1,6 +1,6 @@
 -- core/keymaps.lua
 
--- Клавиатурные сочетания
+-- Hotkeys
 local set_keymap = vim.api.nvim_set_keymap
 local options = { noremap = true, silent = true }
 
