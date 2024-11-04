@@ -178,3 +178,5 @@ If you encounter issues while installing or using GloryVim, try the following so
   ```powershell
   git clone --depth 1 https://github.com/wbthomason/packer.nvim `
     $HOME\AppData\Local\nvim\site\pack\packer\start\packer.nvim
+
+If new errors are found, the manual will be updated to resolve them.
