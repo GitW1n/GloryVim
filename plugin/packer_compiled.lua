@@ -1,4 +1,3 @@
--- Packer.nvim Plugin Loader Code for Neovim
 -- Automatically generated packer.nvim plugin loader code
 
 if vim.api.nvim_call_function('has', {'nvim-0.5'}) ~= 1 then
