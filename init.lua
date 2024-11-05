@@ -13,7 +13,7 @@ packer.startup(function(use)
     require('core.plugins')(use)  -- Calling the function to install plugins
 end)
 
---vim.cmd('source ~/.config/nvim/init.vim') -- For Linux/Macos(optional)
+--vim.cmd('source ~/.config/nvim/init.vim') -- For Linux/Macos(Optional)
 -- vim.cmd('source C:\\Users\\<username>\\AppData\\Local\\nvim\\init.vim') -- For Windows (replace <username> with your username) (Optional)
 
 -- dashboard-nvim
