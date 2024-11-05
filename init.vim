@@ -1,4 +1,3 @@
-" (Optional)
 augroup MyAutoCommands
     autocmd!
     autocmd BufLeave * if &modified | :w | endif
