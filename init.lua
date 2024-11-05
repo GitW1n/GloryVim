@@ -13,12 +13,12 @@ packer.startup(function(use)
     require('core.plugins')(use)  -- Calling the function to install plugins
 end)
 
---vim.cmd('source ~/.config/nvim/init.vim') -- For Linux/Macos
+--vim.cmd('source ~/.config/nvim/init.vim') -- For Linux/Macos(optional)
 -- vim.cmd('source C:\\Users\\<username>\\AppData\\Local\\nvim\\init.vim') -- For Windows (replace <username> with your username) 
 
 -- dashboard-nvim
 require('core.dashboard').setup {
-    theme = 'hyper',  -- theme(default:hyper)
+    theme = 'hyper',  -- Theme(default:hyper)
     config = {
         header = {
             [[░██████╗░██╗░░░░░░█████╗░██████╗░██╗░░░██╗██╗░░░██╗██╗███╗░░░███╗]],
