@@ -14,7 +14,7 @@ packer.startup(function(use)
 end)
 
 --vim.cmd('source ~/.config/nvim/init.vim') -- For Linux/Macos(optional)
--- vim.cmd('source C:\\Users\\<username>\\AppData\\Local\\nvim\\init.vim') -- For Windows (replace <username> with your username) 
+-- vim.cmd('source C:\\Users\\<username>\\AppData\\Local\\nvim\\init.vim') -- For Windows (replace <username> with your username) (Optional)
 
 -- dashboard-nvim
 require('core.dashboard').setup {
