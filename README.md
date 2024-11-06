@@ -173,7 +173,13 @@ If you encounter issues while installing or using GloryVim, try the following so
 - **Check Installation**: Verify that you have extracted Neovim properly and that the executable `nvim.exe` is present in the `bin` directory.
 
 ### 2. Plugins Not Installing
-- **Packer Issues**: If plugins are not installing with Packer, ensure that you have cloned Packer correctly. You can reinstall it by running the following command in PowerShell:
+- **Packer Issues**: If plugins are not installing with Packer, ensure that you have cloned Packer correctly.
+- Verify Packer Installation:
+
+Ensure that Packer is installed correctly in the right directory. The path should be:
+For Unix-based systems: ``` ~/.local/share/nvim/site/pack/packer/start/packer.nvim ```
+For Windows:  ```$HOME\AppData\Local\nvim\site\pack\packer\start\packer.nvim ```
+-  You can reinstall it by running the following command in PowerShell:
   ```powershell
   git clone --depth 1 https://github.com/wbthomason/packer.nvim `
     $HOME\AppData\Local\nvim\site\pack\packer\start\packer.nvim
