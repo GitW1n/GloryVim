@@ -1,7 +1,7 @@
 ## GloryVim
 
 ### Description
-GloryVim is a minimalistic and powerful configuration of NeoVim, focused on development in Python, Lua. This project aims to create a user-friendly development environment with a focus on performance and extensibility.
+GloryVim is a minimalistic and powerful configuration of NeoVim, focused on development in Python, Lua. This project aims to create a user-friendly development environment with a focus on performance and extensibility. 
 
 ## Installation
 
