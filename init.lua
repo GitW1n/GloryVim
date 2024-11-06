@@ -35,6 +35,6 @@ require('core.dashboard').setup {
             {icon = '  ', desc = 'Open configuration      ', action = 'edit ~/.config/nvim/init.lua', key = 'c'},
             {icon = '  ', desc = 'Exit                   ', action = 'exit', key = 'q'},
         },
-        footer = {"Neovim - GloryVim"}, -- FOOTER
+        footer = {"Neovim - GloryVim"},
     }
 }
