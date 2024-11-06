@@ -183,5 +183,6 @@ For Windows:  ```$HOME\AppData\Local\nvim\site\pack\packer\start\packer.nvim ```
   ```powershell
   git clone --depth 1 https://github.com/wbthomason/packer.nvim `
     $HOME\AppData\Local\nvim\site\pack\packer\start\packer.nvim
-
+ ```
+Run  ```:PackerSync: ``` If plugins aren’t installing after a fresh setup, try running:
 If new errors are found, the guide will be updated to resolve them.
