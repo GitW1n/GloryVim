@@ -9,7 +9,7 @@ GloryVim is a minimalistic and powerful configuration of NeoVim, focused on deve
 Before installation, make sure you have the following components installed:
 
 1.Neovim: version 0.5 or higher.
-2.Node.js: required for some plugins to work.
+2.Node.js: required for some plugins to work. 
 
 3.Python 3: To support Python development.
 
