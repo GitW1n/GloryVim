@@ -1,6 +1,6 @@
 -- core/config.lua
 vim.opt.number = true                -- line numbers 
-vim.opt.relativenumber = true        -- relatuves
+vim.opt.relativenumber = true        
 vim.opt.tabstop = 4                  
 vim.opt.shiftwidth = 4               
 vim.opt.expandtab = true             
