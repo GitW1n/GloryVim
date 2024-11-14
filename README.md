@@ -27,9 +27,9 @@ sudo apt install neovim
 ```
 Arch Linux:
 ```
-sudo pacman -S neovim
+sudo pacman -S neovim 
 ```
-Fedora:
+Fedora: 
 ```
 sudo dnf install neovim
 ```
