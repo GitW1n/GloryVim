@@ -1,7 +1,7 @@
 -- Make sure Packer is loaded
 vim.cmd [[packadd packer.nvim]]
 
--- Packer initialization
+
 local packer = require('plugins.packer')
 
 
