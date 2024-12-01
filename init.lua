@@ -18,7 +18,7 @@ end)
 
 -- dashboard-nvim
 require('core.dashboard').setup {
-    theme = 'hyper',  -- Theme(default:hyper)
+    theme = 'hyper',
     config = {
         header = {
             [[░██████╗░██╗░░░░░░█████╗░██████╗░██╗░░░██╗██╗░░░██╗██╗███╗░░░███╗]],
