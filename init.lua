@@ -27,7 +27,7 @@ require('core.dashboard').setup {
             [[░╚═════╝░╚══════╝░╚════╝░╚═╝░░╚═╝░░░╚═╝░░░░░░╚═╝░░░╚═╝╚═╝░░░░░╚═╝]],
         },
         center = {
-            {icon = '  ', desc = 'Recently opened files  ', action = 'Telescope oldfiles', key = 'r'}, 
+            {icon = '  ', desc = 'Recently opened files  ', action = 'Telescope old_files', key = 'r'}, 
             {icon = '  ', desc = 'Find file              ', action = 'Telescope find_files', key = 'f'},
             {icon = '  ', desc = 'Find text              ', action = 'Telescope live_grep', key = 'g'},
             {icon = '  ', desc = 'Open configuration      ', action = 'edit ~/.config/nvim/init.lua', key = 'c'},
