@@ -1,9 +1,7 @@
 -- Make sure Packer is loaded
 vim.cmd [[packadd packer.nvim]]
 
-
 local packer = require('plugins.packer')
-
 
 require('core.config')      -- General settings
 require('core.keymaps')     -- Keyboard shortcuts
