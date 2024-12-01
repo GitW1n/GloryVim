@@ -10,7 +10,7 @@ require('core.keymaps')     -- Keyboard shortcuts
 
 
 packer.startup(function(use)
-    require('core.plugins')(use)  -- Calling the function to install plugins
+    require('core.plugins')(use)
 end)
 
 --vim.cmd('source ~/.config/nvim/init.vim') -- For Linux/Macos(Optional)
