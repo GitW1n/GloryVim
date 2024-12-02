@@ -26,6 +26,9 @@ sudo apt update
 sudo apt install neovim
 ```
 Kali linux:
+```bash
+sudo apt update
+```
 Arch Linux:
 ```
 sudo pacman -S neovim 
