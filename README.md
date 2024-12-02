@@ -51,7 +51,7 @@ Step 2: Extract Neovim
 1. Create a directory where you want to install Neovim. A common location is `C:\Program Files\Neovim`.
 2. Extract the contents of the downloaded `.zip` file into the newly created directory.
 
-Step 3: Add Neovim to the System PATH
+Step 3: Add Neovim to the System PATH (Windows "PATH")
 1. Right-click on "This PC" or "My Computer" and select "Properties".
 2. Click on "Advanced system settings".
 3. In the System Properties window, click on the "Environment Variables" button.
