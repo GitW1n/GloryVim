@@ -25,6 +25,7 @@ Ubuntu/Debian:
 sudo apt update
 sudo apt install neovim
 ```
+Kali linux:
 Arch Linux:
 ```
 sudo pacman -S neovim 
