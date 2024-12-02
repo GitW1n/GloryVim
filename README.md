@@ -192,5 +192,5 @@ For Windows:  ```$HOME\AppData\Local\nvim\site\pack\packer\start\packer.nvim ```
     $HOME\AppData\Local\nvim\site\pack\packer\start\packer.nvim
  ```
 Run  ```:PackerSync: ``` If plugins aren’t installing after a fresh setup, try running:
-Please report any new bugs and information on how to fix them will be added.
+Please report any new bugs and information on how to fix them will be added to this section.
 If new errors are found, the guide will be updated to resolve them.
