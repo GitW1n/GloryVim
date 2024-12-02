@@ -182,7 +182,7 @@ If you encounter issues while installing or using GloryVim, try the following so
 - Verify Packer Installation:
 
 Ensure that Packer is installed correctly in the right directory. The path should be:
-For Unix-based systems(ex. Linux): ``` ~/.local/share/nvim/site/pack/packer/start/packer.nvim ```
+For Unix-based systems(ex. Linux,FreeBSD): ``` ~/.local/share/nvim/site/pack/packer/start/packer.nvim ```
 For Windows:  ```$HOME\AppData\Local\nvim\site\pack\packer\start\packer.nvim ```
 -  You can reinstall it by running the following command in PowerShell:
   ```powershell
