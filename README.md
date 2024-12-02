@@ -186,6 +186,8 @@ For Unix-based systems(ex. Linux): ``` ~/.local/share/nvim/site/pack/packer/star
 For Windows:  ```$HOME\AppData\Local\nvim\site\pack\packer\start\packer.nvim ```
 -  You can reinstall it by running the following command in PowerShell:
   ```powershell
+
+
   git clone --depth 1 https://github.com/wbthomason/packer.nvim `
     $HOME\AppData\Local\nvim\site\pack\packer\start\packer.nvim
  ```
