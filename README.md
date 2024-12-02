@@ -167,7 +167,7 @@ If you have specific dependencies for some plugins, follow the instructions in e
 ## Completing the installation
 After completing all the steps you should have a fully working GloryVim configuration. Launch Neovim and check that all plugins and settings are working correctly.
 ## Additional information
-To familiarize yourself with the basic Neovim commands, you can run the ```:help``` command in the editor itself.
+To familiarize yourself with the basic Neovim commands, you can run the ```:help``` command in the editor itself(Begg).
 To get repository updates, use the ```git pull``` command in the ```~/.config/nvim``` folder.
 
 ## Troubleshooting
