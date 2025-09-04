@@ -34,7 +34,7 @@ return function(use)
     if packer_bootstrap then
         require('packer').sync()
     end
-end
+
 
 require('dashboard').setup {
     theme = 'hyper',  -- theme
@@ -57,3 +57,4 @@ require('dashboard').setup {
         footer = {"Neovim - GloryVim"},
     }
 }
+end

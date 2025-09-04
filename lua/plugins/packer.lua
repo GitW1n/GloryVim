@@ -31,6 +31,7 @@ packer.startup(function(use)
   use 'onsails/lspkind-nvim'
   use 'nvim-lua/plenary.nvim'
   use 'nvim-treesitter/nvim-treesitter'
-  use 'nvim-tree/nvim-tree.lua
+  use 'nvim-tree/nvim-tree.lua'
   use 'nvim-lualine/lualine.nvim'
   use 'nvim-telescope/telescope.nvim'
+end)
