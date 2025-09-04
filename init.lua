@@ -1,7 +1,11 @@
 -- Make sure Packer is loaded
 vim.cmd [[packadd packer.nvim]]
 
-local packer = require('plugins.packer')
+local status, packer = pcall(require, "packer")
+if not status then
+    print("Packer is not installed")
+    return
+end
 
 require('core.config')      -- General settings
 require('core.keymaps')     -- Keyboard shortcuts
