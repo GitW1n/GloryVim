@@ -27,7 +27,11 @@ return function(use)
    -- use 'hrsh7th/cmp-vsnip'  -- source for cmp(supports vsnip)
 
     -- plugins for code
-    use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate', config = [[require('plugins.treesitter')]] }
+    use { 
+        'nvim-treesitter/nvim-treesitter', 
+    run = ':TSUpdate', 
+    config = [[require('plugins.treesitter')]] 
+}
     use { 'neovim/nvim-lspconfig', config = [[require('core.lsp')]] }
     use 'glepnir/dashboard-nvim'
 
