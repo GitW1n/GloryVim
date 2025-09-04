@@ -44,7 +44,7 @@ return function(use)
 
 
 require('dashboard').setup {
-    theme = 'hyper',  -- themes avaible:
+    theme = 'hyper',  -- themes avaible:hyper, doom
     config = {
         header = {
             [[░██████╗░██╗░░░░░░█████╗░██████╗░██╗░░░██╗██╗░░░██╗██╗███╗░░░███╗]],
