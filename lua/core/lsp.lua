@@ -17,5 +17,7 @@ lspconfig.lua_ls.setup {
     },
 }
 
+lspconfig.rust_analyzer.setup {}
+
 -- Other languages
 
