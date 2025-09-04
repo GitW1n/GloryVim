@@ -44,7 +44,7 @@ return function(use)
 
 
 require('dashboard').setup {
-    theme = 'hyper',  -- themes avaible:hyper, doom,startify(not vim),alpha
+    theme = 'hyper',  -- themes avaible:hyper, doom,startify(not vim)
     config = {
         header = {
             [[░██████╗░██╗░░░░░░█████╗░██████╗░██╗░░░██╗██╗░░░██╗██╗███╗░░░███╗]],
