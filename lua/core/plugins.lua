@@ -28,10 +28,13 @@ return function(use)
 
     -- plugins for code
     use { 
-        'nvim-treesitter/nvim-treesitter', 
+    'nvim-treesitter/nvim-treesitter', 
     run = ':TSUpdate', 
-    config = [[require('plugins.treesitter')]] 
+    config = function()
+        require('plugins.treesitter')
+    end
 }
+
     use { 'neovim/nvim-lspconfig', config = [[require('core.lsp')]] }
     use 'glepnir/dashboard-nvim'
 
