@@ -1,3 +1,4 @@
+-- LSP
 local lspconfig = require('lspconfig')
 
 --Python (pyright)
@@ -17,6 +18,7 @@ lspconfig.lua_ls.setup {
     },
 }
 
+-- Rust (rust_analyzer)
 lspconfig.rust_analyzer.setup {}
 
 -- Other languages
